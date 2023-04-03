@@ -13,107 +13,94 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3750 5200 0    50   BiDi ~ 0
+Text GLabel 1550 5200 0    50   BiDi ~ 0
 D0
-Text GLabel 3750 5000 0    50   BiDi ~ 0
+Text GLabel 1550 5000 0    50   BiDi ~ 0
 D1
-Text GLabel 3750 4800 0    50   BiDi ~ 0
+Text GLabel 1550 4800 0    50   BiDi ~ 0
 D2
-Text GLabel 3750 4600 0    50   BiDi ~ 0
+Text GLabel 1550 4600 0    50   BiDi ~ 0
 D3
-Text GLabel 3750 4400 0    50   BiDi ~ 0
+Text GLabel 1550 4400 0    50   BiDi ~ 0
 D4
-Text GLabel 3750 4200 0    50   BiDi ~ 0
+Text GLabel 1550 4200 0    50   BiDi ~ 0
 D5
-Text GLabel 3750 4000 0    50   BiDi ~ 0
+Text GLabel 1550 4000 0    50   BiDi ~ 0
 D6
-Text GLabel 3750 3800 0    50   BiDi ~ 0
+Text GLabel 1550 3800 0    50   BiDi ~ 0
 D7
-Text GLabel 3750 3400 0    50   BiDi ~ 0
+Text GLabel 1550 3400 0    50   BiDi ~ 0
 BUSY
-Text GLabel 3750 3200 0    50   BiDi ~ 0
+Text GLabel 1550 3200 0    50   BiDi ~ 0
 POUT
-Text GLabel 3750 3000 0    50   BiDi ~ 0
+Text GLabel 1550 3000 0    50   BiDi ~ 0
 SELECT
-Text GLabel 3450 4200 0    50   Input ~ 0
+Text GLabel 1250 4200 0    50   Input ~ 0
 GND
-Text GLabel 3750 4900 0    50   Output ~ 0
+Text GLabel 1550 4900 0    50   Output ~ 0
 RESET
-Text GLabel 5150 1500 0    50   Input ~ 0
+Text GLabel 5650 5200 2    50   Input ~ 0
 GND
-Text GLabel 6000 1450 2    50   Input ~ 0
-GND
-Text GLabel 5150 1800 0    50   BiDi ~ 0
+Text GLabel 4900 2250 0    50   BiDi ~ 0
 BUSY
-Text GLabel 5150 1900 0    50   BiDi ~ 0
+Text GLabel 4900 2350 0    50   BiDi ~ 0
 POUT
-Text GLabel 5150 2000 0    50   BiDi ~ 0
+Text GLabel 5450 1950 2    50   BiDi ~ 0
 D6
-Text GLabel 5150 2100 0    50   BiDi ~ 0
+Text GLabel 5450 1850 2    50   BiDi ~ 0
 D7
-Text GLabel 6000 2450 2    50   BiDi ~ 0
+Text GLabel 5450 2550 2    50   BiDi ~ 0
 D0
-Text GLabel 6000 2350 2    50   BiDi ~ 0
+Text GLabel 5450 2450 2    50   BiDi ~ 0
 D1
-Text GLabel 6000 2250 2    50   BiDi ~ 0
+Text GLabel 5450 2350 2    50   BiDi ~ 0
 D2
-Text GLabel 6000 2150 2    50   BiDi ~ 0
+Text GLabel 5450 2250 2    50   BiDi ~ 0
 D3
-Text GLabel 6000 2050 2    50   BiDi ~ 0
+Text GLabel 5450 2150 2    50   BiDi ~ 0
 D4
-Text GLabel 6000 1950 2    50   BiDi ~ 0
+Text GLabel 5450 2050 2    50   BiDi ~ 0
 D5
 Text GLabel 6700 1550 2    50   Input ~ 0
 RESET
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EB341E8
-P 3800 2500
-F 0 "#FLG0101" H 3800 2575 50  0001 C CNN
-F 1 "PWR_FLAG" H 3800 2673 50  0000 C CNN
-F 2 "" H 3800 2500 50  0001 C CNN
-F 3 "~" H 3800 2500 50  0001 C CNN
-	1    3800 2500
+P 1600 2500
+F 0 "#FLG0101" H 1600 2575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 2673 50  0000 C CNN
+F 2 "" H 1600 2500 50  0001 C CNN
+F 3 "~" H 1600 2500 50  0001 C CNN
+	1    1600 2500
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+5V #PWR0101
-U 1 1 5EB34559
-P 3800 2400
-F 0 "#PWR0101" H 3800 2250 50  0001 C CNN
-F 1 "+5V" H 3815 2573 50  0000 C CNN
-F 2 "" H 3800 2400 50  0001 C CNN
-F 3 "" H 3800 2400 50  0001 C CNN
-	1    3800 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3800 2400 3800 2500
+	1600 2400 1600 2500
 $Comp
 L power:GND #PWR0102
 U 1 1 5EB362B9
-P 4100 2500
-F 0 "#PWR0102" H 4100 2250 50  0001 C CNN
-F 1 "GND" H 4105 2327 50  0000 C CNN
-F 2 "" H 4100 2500 50  0001 C CNN
-F 3 "" H 4100 2500 50  0001 C CNN
-	1    4100 2500
+P 1900 2500
+F 0 "#PWR0102" H 1900 2250 50  0001 C CNN
+F 1 "GND" H 1905 2327 50  0000 C CNN
+F 2 "" H 1900 2500 50  0001 C CNN
+F 3 "" H 1900 2500 50  0001 C CNN
+	1    1900 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5EB368E6
-P 4100 2400
-F 0 "#FLG0102" H 4100 2475 50  0001 C CNN
-F 1 "PWR_FLAG" H 4100 2573 50  0000 C CNN
-F 2 "" H 4100 2400 50  0001 C CNN
-F 3 "~" H 4100 2400 50  0001 C CNN
-	1    4100 2400
+P 1900 2400
+F 0 "#FLG0102" H 1900 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 2573 50  0000 C CNN
+F 2 "" H 1900 2400 50  0001 C CNN
+F 3 "~" H 1900 2400 50  0001 C CNN
+	1    1900 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 2400 4100 2500
-Text GLabel 4100 2450 0    50   Input ~ 0
+	1900 2400 1900 2500
+Text GLabel 1900 2450 0    50   Input ~ 0
 GND
 Text GLabel 7550 3900 0    50   Input ~ 0
 GND
@@ -121,24 +108,22 @@ Text GLabel 7450 4400 1    50   Output ~ 0
 MISO
 Text GLabel 7850 4400 1    50   Input ~ 0
 MOSI
-Text GLabel 5150 1600 0    50   BiDi ~ 0
+Text GLabel 4900 2150 0    50   BiDi ~ 0
 SELECT
 Text GLabel 7650 4400 1    50   Input ~ 0
 SCK
-NoConn ~ 3750 3300
-NoConn ~ 3750 3500
-NoConn ~ 3750 5100
-Text GLabel 6000 2750 2    50   Output ~ 0
+NoConn ~ 1550 3300
+NoConn ~ 1550 3500
+NoConn ~ 1550 5100
+Text GLabel 4450 4600 0    50   Output ~ 0
 SCK
-Text GLabel 5150 2600 0    50   Input ~ 0
+Text GLabel 4450 4400 0    50   Input ~ 0
 MISO
-Text GLabel 5150 2500 0    50   Output ~ 0
+Text GLabel 4450 4500 0    50   Output ~ 0
 MOSI
-Text GLabel 3800 2450 0    50   Input ~ 0
-VCC
-NoConn ~ 3750 3100
-Text GLabel 9350 4050 0    50   Input ~ 0
-VCC
+Text GLabel 1600 2450 0    50   Input ~ 0
+3V3
+NoConn ~ 1550 3100
 $Comp
 L Device:LED D2
 U 1 1 5EBAFFCE
@@ -158,7 +143,7 @@ Wire Wire Line
 	9550 4250 9550 4350
 Wire Wire Line
 	9550 4650 9550 4750
-Text GLabel 3750 3600 0    50   Input ~ 0
+Text GLabel 1550 3600 0    50   Input ~ 0
 ACK
 $Comp
 L Device:R_Small R2
@@ -206,43 +191,43 @@ Wire Notes Line
 Text Notes 9700 4050 0    50   ~ 0
 Optional Power LED
 Wire Wire Line
-	3750 3700 3450 3700
+	1550 3700 1250 3700
 Wire Wire Line
-	3450 3700 3450 3900
+	1250 3700 1250 3900
 Wire Wire Line
-	3450 4700 3750 4700
+	1250 4700 1550 4700
 Wire Wire Line
-	3750 3900 3450 3900
-Connection ~ 3450 3900
+	1550 3900 1250 3900
+Connection ~ 1250 3900
 Wire Wire Line
-	3450 3900 3450 4100
+	1250 3900 1250 4100
 Wire Wire Line
-	3750 4100 3450 4100
-Connection ~ 3450 4100
+	1550 4100 1250 4100
+Connection ~ 1250 4100
 Wire Wire Line
-	3450 4100 3450 4300
+	1250 4100 1250 4300
 Wire Wire Line
-	3750 4300 3450 4300
-Connection ~ 3450 4300
+	1550 4300 1250 4300
+Connection ~ 1250 4300
 Wire Wire Line
-	3450 4300 3450 4500
+	1250 4300 1250 4500
 Wire Wire Line
-	3750 4500 3450 4500
-Connection ~ 3450 4500
+	1550 4500 1250 4500
+Connection ~ 1250 4500
 Wire Wire Line
-	3450 4500 3450 4700
-Text GLabel 5150 2300 0    50   Output ~ 0
+	1250 4500 1250 4700
+Text GLabel 4900 2550 0    50   Output ~ 0
 ACK
-NoConn ~ 3750 5400
+NoConn ~ 1550 5400
 $Comp
 L Connector:DB25_Male J1
 U 1 1 6108B66B
-P 4050 4200
-F 0 "J1" H 4230 4246 50  0000 L CNN
-F 1 "DB25_Male" H 3850 2750 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-25_Male_EdgeMount_P2.77mm" H 4050 4200 50  0001 C CNN
-F 3 " ~" H 4050 4200 50  0001 C CNN
-	1    4050 4200
+P 1850 4200
+F 0 "J1" H 2030 4246 50  0000 L CNN
+F 1 "DB25_Male" H 1650 2750 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-25_Male_EdgeMount_P2.77mm" H 1850 4200 50  0001 C CNN
+F 3 " ~" H 1850 4200 50  0001 C CNN
+	1    1850 4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -258,16 +243,14 @@ F 3 "" H 7750 5300 50  0001 C CNN
 $EndComp
 Text GLabel 7750 3900 2    50   Input ~ 0
 3V3
-Text GLabel 6000 2650 2    50   Output ~ 0
+Text GLabel 5650 3200 2    50   Output ~ 0
 3V3
 Text GLabel 7150 6100 3    50   Input ~ 0
 GND
 Text GLabel 7950 4400 1    50   Input ~ 0
 CS
 Text GLabel 7150 4400 1    50   Output ~ 0
-CP
-Text GLabel 9350 5200 0    50   Input ~ 0
-VCC
+CD
 Wire Wire Line
 	9350 5200 9550 5200
 Wire Wire Line
@@ -278,26 +261,24 @@ Wire Notes Line
 	9100 6300 10500 6300
 Wire Notes Line
 	10500 5100 9100 5100
-Text GLabel 5150 1700 0    50   Input ~ 0
-CP
-Text GLabel 5150 2400 0    50   Output ~ 0
-SS
+Text GLabel 5650 4900 2    50   Input ~ 0
+CD
+Text GLabel 4450 4700 0    50   Output ~ 0
+CS
 Text GLabel 9550 5900 3    50   Output ~ 0
 ACT_LED
 Wire Notes Line
 	10500 5100 10500 6300
 Wire Notes Line
 	9100 5100 9100 6300
-Text GLabel 5150 2200 0    50   Input ~ 0
+Text GLabel 4900 2450 0    50   Input ~ 0
 ACT_LED
-NoConn ~ 3750 5300
-Text GLabel 6000 1650 2    50   Input ~ 0
-VCC
+NoConn ~ 1550 5300
 $Comp
-L Device:C_Small C4
+L Device:C_Small C1
 U 1 1 612089E2
 P 7650 3900
-F 0 "C4" V 7500 3900 50  0000 C CNN
+F 0 "C1" V 7500 3900 50  0000 C CNN
 F 1 "0.1uF" V 7500 4100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 3900 50  0001 C CNN
 F 3 "~" H 7650 3900 50  0001 C CNN
@@ -326,16 +307,54 @@ NoConn ~ 7350 4400
 $Comp
 L Parallel_to_ESP32:ESP32-DEVKIT-V1 U1
 U 1 1 643ACCD9
-P 5450 4400
-F 0 "U1" H 5450 5667 50  0000 C CNN
-F 1 "ESP32-DEVKIT-V1" H 5450 5576 50  0000 C CNN
-F 2 "Parallel_to_ESP32:MODULE_ESP32_DEVKIT_V1" H 5450 4400 50  0001 L BNN
-F 3 "" H 5450 4400 50  0001 L BNN
-F 4 "N/A" H 5450 4400 50  0001 L BNN "PARTREV"
-F 5 "6.8 mm" H 5450 4400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "Manufacturer Recommendations" H 5450 4400 50  0001 L BNN "STANDARD"
-F 7 "DOIT" H 5450 4400 50  0001 L BNN "MANUFACTURER"
-	1    5450 4400
+P 5050 4200
+F 0 "U1" H 5050 5467 50  0000 C CNN
+F 1 "ESP32-DEVKIT-V1" H 5050 5376 50  0000 C CNN
+F 2 "Parallel_to_ESP32:MODULE_ESP32_DEVKIT_V1" H 5050 4200 50  0001 L BNN
+F 3 "" H 5050 4200 50  0001 L BNN
+F 4 "N/A" H 5050 4200 50  0001 L BNN "PARTREV"
+F 5 "6.8 mm" H 5050 4200 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Manufacturer Recommendations" H 5050 4200 50  0001 L BNN "STANDARD"
+F 7 "DOIT" H 5050 4200 50  0001 L BNN "MANUFACTURER"
+	1    5050 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 4050 0    50   Input ~ 0
+3V3
+Text GLabel 9350 5200 0    50   Input ~ 0
+3V3
+Text GLabel 2750 3750 0    50   Input ~ 0
+GND
+Text GLabel 2750 4650 0    50   Input ~ 0
+GND
+Text GLabel 3750 4650 2    50   Input ~ 0
+GND
+Text GLabel 3750 3750 2    50   Input ~ 0
+GND
+Text GLabel 4450 3200 0    50   Input ~ 0
+VCC
+Text GLabel 2750 4450 0    50   Input ~ 0
+3V3
+$Comp
+L Parallel_to_ESP32:SN74CB3T16210 U?
+U 1 1 6442C4B2
+P 3250 4150
+F 0 "U?" H 3250 5517 50  0000 C CNN
+F 1 "SN74CB3T16210" H 3250 5426 50  0000 C CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 4900 4600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74cb3t16210.pdf" H 4900 4600 50  0001 C CNN
+	1    3250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 644304C8
+P 1600 2400
+F 0 "#PWR?" H 1600 2250 50  0001 C CNN
+F 1 "+3V3" H 1615 2573 50  0000 C CNN
+F 2 "" H 1600 2400 50  0001 C CNN
+F 3 "" H 1600 2400 50  0001 C CNN
+	1    1600 2400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

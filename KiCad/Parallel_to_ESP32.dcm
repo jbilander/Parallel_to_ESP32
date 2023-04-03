@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74CB3T16210
+D 20-bit FET bus switch with level shifter
+K FET bus switch
+F https://www.ti.com/lit/ds/symlink/sn74cb3t16210.pdf
+$ENDCMP
+#
+#End Doc Library
