@@ -125,66 +125,66 @@ NoConn ~ 1550 3100
 $Comp
 L Device:LED D2
 U 1 1 5EBAFFCE
-P 9000 3400
-F 0 "D2" V 9039 3283 50  0000 R CNN
-F 1 "Power LED indicator" V 8948 3283 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 9000 3400 50  0001 C CNN
-F 3 "~" H 9000 3400 50  0001 C CNN
-	1    9000 3400
+P 10100 3400
+F 0 "D2" V 10139 3283 50  0000 R CNN
+F 1 "Power LED indicator" V 10048 3283 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 10100 3400 50  0001 C CNN
+F 3 "~" H 10100 3400 50  0001 C CNN
+	1    10100 3400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9000 3950 3    50   Input ~ 0
+Text GLabel 10100 3950 3    50   Input ~ 0
 GND
 Wire Wire Line
-	8800 3250 9000 3250
+	9900 3250 10100 3250
 Wire Wire Line
-	9000 3850 9000 3950
+	10100 3850 10100 3950
 Text GLabel 1550 3600 0    50   Input ~ 0
 ACK
 $Comp
 L Device:R_Small R2
 U 1 1 5EB9BBF1
-P 9000 3750
-F 0 "R2" H 8850 3750 50  0000 L CNN
-F 1 "150" H 9050 3750 50  0001 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9000 3750 50  0001 C CNN
-F 3 "~" H 9000 3750 50  0001 C CNN
-	1    9000 3750
+P 10100 3750
+F 0 "R2" H 9950 3750 50  0000 L CNN
+F 1 "150" H 10150 3750 50  0001 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10100 3750 50  0001 C CNN
+F 3 "~" H 10100 3750 50  0001 C CNN
+	1    10100 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 5EB9CA00
-P 9000 4900
-F 0 "R1" H 8900 4900 50  0000 C CNN
-F 1 "150" H 9150 4900 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9000 4900 50  0001 C CNN
-F 3 "~" H 9000 4900 50  0001 C CNN
-	1    9000 4900
+P 10100 4900
+F 0 "R1" H 10000 4900 50  0000 C CNN
+F 1 "150" H 10250 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10100 4900 50  0001 C CNN
+F 3 "~" H 10100 4900 50  0001 C CNN
+	1    10100 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D1
 U 1 1 5EBA7223
-P 9000 4550
-F 0 "D1" V 9039 4433 50  0000 R CNN
-F 1 "Activity LED indicator" V 8948 4433 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 9000 4550 50  0001 C CNN
-F 3 "~" H 9000 4550 50  0001 C CNN
-	1    9000 4550
+P 10100 4550
+F 0 "D1" V 10139 4433 50  0000 R CNN
+F 1 "Activity LED indicator" V 10048 4433 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 10100 4550 50  0001 C CNN
+F 3 "~" H 10100 4550 50  0001 C CNN
+	1    10100 4550
 	0    -1   -1   0   
 $EndComp
-Text Notes 9100 4400 0    50   ~ 0
+Text Notes 10200 4400 0    50   ~ 0
 Optional Activity LED
 Wire Notes Line
-	8550 3150 8550 4200
+	9650 3150 9650 4200
 Wire Notes Line
-	8550 4200 9950 4200
+	9650 4200 11050 4200
 Wire Notes Line
-	9950 4200 9950 3150
+	11050 4200 11050 3150
 Wire Notes Line
-	9950 3150 8550 3150
-Text Notes 9150 3250 0    50   ~ 0
+	11050 3150 9650 3150
+Text Notes 10250 3250 0    50   ~ 0
 Optional Power LED
 Wire Wire Line
 	1550 3700 1250 3700
@@ -244,26 +244,26 @@ Text GLabel 6850 5300 3    50   Input ~ 0
 GND
 Text GLabel 7650 3600 1    50   Input ~ 0
 CS
-Text GLabel 6850 3600 1    50   Output ~ 0
+Text GLabel 6850 3450 1    50   Output ~ 0
 CD
 Wire Wire Line
-	9000 4700 9000 4800
+	10100 4700 10100 4800
 Wire Wire Line
-	9000 5000 9000 5100
+	10100 5000 10100 5100
 Wire Notes Line
-	8550 5500 9950 5500
+	9650 5500 11050 5500
 Wire Notes Line
-	9950 4300 8550 4300
+	11050 4300 9650 4300
 Text GLabel 5900 4800 2    50   Input ~ 0
 CD
 Text GLabel 4700 4100 0    50   Output ~ 0
 CS
-Text GLabel 8950 4400 0    50   Input ~ 0
+Text GLabel 10050 4400 0    50   Input ~ 0
 ACT_LED
 Wire Notes Line
-	9950 4300 9950 5500
+	11050 4300 11050 5500
 Wire Notes Line
-	8550 4300 8550 5500
+	9650 4300 9650 5500
 $Comp
 L Device:C_Small C1
 U 1 1 612089E2
@@ -296,7 +296,7 @@ F 7 "DOIT" H 5300 4200 50  0001 L BNN "MANUFACTURER"
 	1    5300 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 3250 0    50   Input ~ 0
+Text GLabel 9900 3250 0    50   Input ~ 0
 3V3
 Text GLabel 2750 3750 0    50   Input ~ 0
 GND
@@ -410,10 +410,10 @@ TX2
 NoConn ~ 5900 3500
 NoConn ~ 5900 3600
 Wire Wire Line
-	9000 3650 9000 3550
+	10100 3650 10100 3550
 Wire Wire Line
-	8950 4400 9000 4400
-Text GLabel 9000 5100 3    50   Input ~ 0
+	10050 4400 10100 4400
+Text GLabel 10100 5100 3    50   Input ~ 0
 GND
 Text GLabel 4700 3500 0    50   Input ~ 0
 RX1
@@ -456,4 +456,107 @@ Text GLabel 4700 3600 0    50   Input ~ 0
 RESET_3V3
 Text GLabel 3750 3050 2    50   Input ~ 0
 GND
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 645092AA
+P 8850 4100
+F 0 "J3" V 8850 3900 50  0000 R CNN
+F 1 "Conn_01x02" V 8950 4250 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 4100 50  0001 C CNN
+F 3 "~" H 8850 4100 50  0001 C CNN
+	1    8850 4100
+	0    1    1    0   
+$EndComp
+Text GLabel 8850 3900 2    50   Output ~ 0
+TX1
+Text GLabel 8750 3900 0    50   Input ~ 0
+RX1
+$Comp
+L Device:LED D3
+U 1 1 64514543
+P 8700 3450
+F 0 "D3" V 8700 3650 50  0000 R CNN
+F 1 "LED" V 8600 3650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 3450 50  0001 C CNN
+F 3 "~" H 8700 3450 50  0001 C CNN
+	1    8700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 645152F1
+P 8700 3200
+F 0 "R3" H 8550 3200 50  0000 L CNN
+F 1 "1k" H 8750 3200 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 3200 50  0001 C CNN
+F 3 "~" H 8700 3200 50  0001 C CNN
+	1    8700 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8800 2950 1    50   Input ~ 0
+3V3
+$Comp
+L Device:LED D4
+U 1 1 6452D76C
+P 8900 3450
+F 0 "D4" V 8900 3350 50  0000 R CNN
+F 1 "LED" V 8800 3350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 3450 50  0001 C CNN
+F 3 "~" H 8900 3450 50  0001 C CNN
+	1    8900 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 6452D776
+P 8900 3200
+F 0 "R4" H 8950 3200 50  0000 L CNN
+F 1 "1k" H 8950 3200 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8900 3200 50  0001 C CNN
+F 3 "~" H 8900 3200 50  0001 C CNN
+	1    8900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3100 8700 2950
+Wire Wire Line
+	8900 3100 8900 2950
+Wire Wire Line
+	8700 2950 8900 2950
+Wire Wire Line
+	8700 3600 8700 3750
+Wire Wire Line
+	8700 3750 8750 3750
+Wire Wire Line
+	8750 3750 8750 3900
+Wire Wire Line
+	8850 3900 8850 3750
+Wire Wire Line
+	8850 3750 8900 3750
+Wire Wire Line
+	8900 3600 8900 3750
+$Comp
+L Device:R_Small R5
+U 1 1 64555336
+P 6650 3200
+F 0 "R5" H 6700 3200 50  0000 L CNN
+F 1 "1k" H 6700 3200 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 3200 50  0001 C CNN
+F 3 "~" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 3000 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	6850 3600 6850 3550
+Wire Wire Line
+	6650 3300 6650 3550
+Wire Wire Line
+	6650 3550 6850 3550
+Connection ~ 6850 3550
+Wire Wire Line
+	6850 3550 6850 3450
+Wire Wire Line
+	6650 3100 6650 3000
 $EndSCHEMATC
