@@ -1243,6 +1243,11 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at -12.7 -15.515 180) (size 2 2) (drill 1.02) (layers *.Cu *.Mask)
       (net 17 3V3))
+    (model ${KIPRJMOD}/packages3d/esp32_dev_kit_v1_asm.stp
+      (offset (xyz 0 25.3 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (module Parallel_to_ESP32:GCT-MEM2055-00-190-01-A (layer F.Cu) (tedit 642B017C) (tstamp 642B1385)
