@@ -682,4 +682,151 @@ Wire Notes Line
 	9650 3750 9650 5950
 Wire Notes Line
 	11050 3750 11050 5950
+$Comp
+L Device:R_Pack04 RN3
+U 1 1 6470ED39
+P 5550 6050
+F 0 "RN3" H 5400 5750 50  0000 L CNN
+F 1 "10k_R_Pack04" H 5150 5650 50  0000 L CNN
+F 2 "Parallel_to_ESP32:RESCAF80P320X160X60-8N" V 5825 6050 50  0001 C CNN
+F 3 "~" H 5550 6050 50  0001 C CNN
+	1    5550 6050
+	-1   0    0    1   
+$EndComp
+Text GLabel 5750 6250 3    50   Input ~ 0
+SELECT
+Text GLabel 5650 6250 3    50   Input ~ 0
+POUT
+Text GLabel 5550 6250 3    50   Input ~ 0
+BUSY
+Text GLabel 5450 6250 3    50   Input ~ 0
+ACK
+Wire Wire Line
+	5450 5850 5550 5850
+Connection ~ 5550 5850
+Connection ~ 5650 5850
+Wire Wire Line
+	5650 5850 5750 5850
+Wire Wire Line
+	5550 5850 5650 5850
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 6473FA68
+P 4200 6050
+F 0 "RN1" H 4100 5750 50  0000 L CNN
+F 1 "10k_R_Pack04" H 3900 5650 50  0000 L CNN
+F 2 "Parallel_to_ESP32:RESCAF80P320X160X60-8N" V 4475 6050 50  0001 C CNN
+F 3 "~" H 4200 6050 50  0001 C CNN
+	1    4200 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 5850 4200 5850
+Connection ~ 4200 5850
+Wire Wire Line
+	4200 5850 4300 5850
+Connection ~ 4300 5850
+Wire Wire Line
+	4300 5850 4400 5850
+Text GLabel 4400 6250 3    50   BiDi ~ 0
+D0
+Text GLabel 4300 6250 3    50   BiDi ~ 0
+D1
+Text GLabel 4200 6250 3    50   BiDi ~ 0
+D2
+Text GLabel 4100 6250 3    50   BiDi ~ 0
+D3
+Text GLabel 5950 6250 3    50   Input ~ 0
+STROBE
+Text GLabel 4950 6250 3    50   BiDi ~ 0
+D6
+Text GLabel 4850 6250 3    50   BiDi ~ 0
+D7
+Text GLabel 5150 6250 3    50   BiDi ~ 0
+D4
+Text GLabel 5050 6250 3    50   BiDi ~ 0
+D5
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 6474C6A2
+P 4950 6050
+F 0 "RN2" H 4850 5750 50  0000 L CNN
+F 1 "10k_R_Pack04" H 4600 5650 50  0000 L CNN
+F 2 "Parallel_to_ESP32:RESCAF80P320X160X60-8N" V 5225 6050 50  0001 C CNN
+F 3 "~" H 4950 6050 50  0001 C CNN
+	1    4950 6050
+	-1   0    0    1   
+$EndComp
+Text GLabel 4650 5850 1    50   Input ~ 0
+Amiga_5V
+Wire Wire Line
+	4850 5850 4950 5850
+Connection ~ 4950 5850
+Wire Wire Line
+	4950 5850 5050 5850
+Connection ~ 5050 5850
+Wire Wire Line
+	5050 5850 5150 5850
+$Comp
+L Device:R_Small R8
+U 1 1 647840C8
+P 5950 6050
+F 0 "R8" H 6000 6050 50  0000 L CNN
+F 1 "10k" H 5750 6050 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 6050 50  0001 C CNN
+F 3 "~" H 5950 6050 50  0001 C CNN
+	1    5950 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5950 5950 5850
+Wire Wire Line
+	5950 6150 5950 6250
+$Comp
+L Device:C_Small C3
+U 1 1 6479390B
+P 6250 6050
+F 0 "C3" H 6150 5900 50  0000 C CNN
+F 1 "0.1uF" H 6200 5800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 6050 50  0001 C CNN
+F 3 "~" H 6250 6050 50  0001 C CNN
+	1    6250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 647A00BF
+P 6450 6050
+F 0 "C4" H 6550 6150 50  0000 C CNN
+F 1 "0.1uF" H 6600 6250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6450 6050 50  0001 C CNN
+F 3 "~" H 6450 6050 50  0001 C CNN
+	1    6450 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5950 6350 5950
+Text GLabel 6450 6150 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6250 6150 6450 6150
+Wire Wire Line
+	6350 5850 6350 5950
+Connection ~ 5950 5850
+Wire Wire Line
+	5950 5850 6350 5850
+Connection ~ 6350 5950
+Wire Wire Line
+	6350 5950 6450 5950
+Wire Wire Line
+	4400 5850 4850 5850
+Connection ~ 4400 5850
+Connection ~ 4850 5850
+Wire Wire Line
+	5150 5850 5450 5850
+Connection ~ 5150 5850
+Connection ~ 5450 5850
+Wire Wire Line
+	5750 5850 5950 5850
+Connection ~ 5750 5850
 $EndSCHEMATC
