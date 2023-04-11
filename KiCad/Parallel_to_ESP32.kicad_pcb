@@ -1987,10 +1987,10 @@
       (net 13 D0))
     (pad 1 smd rect (at -16.62 -0.254 180) (size 1.846667 4) (layers F.Cu F.Paste F.Mask)
       (net 43 STROBE))
-    (model ${KISYS3DMOD}/Connector_Dsub.3dshapes/DSUB-25_Male_EdgeMount_P2.77mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/packages3d/DB25P064TXLFc.stp
+      (offset (xyz 0 -7.25 -0.87))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
