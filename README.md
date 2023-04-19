@@ -3,7 +3,7 @@ A parallel to ESP32 project for the Amiga
 
 ***
 
-This carrier board is made to host the popular ESP32-DEVKIT-V1 board widely available for a few bucks on AliExpress and the likes. Powering the board can be done by taking +5V from the Amigas external floppy port and connect it to the DEVKIT's Micro-USB jack.
+This carrier board is made to host the popular ESP32-DEVKIT-V1 board widely available for a few bucks on AliExpress and the likes. Powering the board can be done by taking +5V from the Amigas external floppy drive port using an [Adapter](https://github.com/jbilander/Amiga_DB23_to_USB_C_power_only_adapter) and connect to the DEVKIT's Micro-USB jack.
 
 ***
 
@@ -50,7 +50,7 @@ D1 (Optional) | LED 3mm | PinHeader_1x02_P2.54mm_Vertical, pin pitch 2.54 mm | [
 D2 (Optional) | LED 3mm | PinHeader_1x02_P2.54mm_Vertical, pin pitch 2.54 mm | [Power LED indicator](https://www.aliexpress.com/item/1005001688927024.html) (Green Diffused or whatever colour you prefer)
 D3-D6 | SMD LED | 0603 | [SMD LED 0603](https://www.aliexpress.com/item/1005003836509392.html)
 C1-C4 | Capacitor 0.1uF = 100nF | 0805 |
-JP1 (Optional) | PinHeader 1x02 | PinHeader_1x02_P2.54mm_Vertical | Shunt on to enable reset ESP32 in conjunction with Ctrl-Amiga-Amiga, Note pressing the RESET-button on the ESP32 will also assert the RESET, be careful, know what you're doing if you enable this one.
+JP1 (Optional) | PinHeader 1x02 | PinHeader_1x02_P2.54mm_Vertical | Shunt on to enable reset ESP32 in conjunction with Ctrl-Amiga-Amiga, Please Note pressing the RESET-button on the ESP32 will also assert the Amiga-RESET, be careful, know what you're doing if you enable this one.
 
 
 
