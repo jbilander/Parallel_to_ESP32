@@ -5,6 +5,9 @@ A parallel to ESP32 project for the Amiga
 
 This carrier board is made to host the popular ESP32-DEVKIT-V1 board widely available for a few bucks on AliExpress and the likes. Powering the board can be done by taking +5V from the Amigas external floppy drive port using an [Adapter](https://github.com/jbilander/Amiga_DB23_to_USB_C_power_only_adapter) and connect to the DEVKIT's Micro-USB jack.
 
+A FileServer firmware is being developed and is available here:<br />
+https://github.com/jbilander/ESP32-FileServer
+
 ***
 <a href="https://i.imgur.com/PKCFaCk.jpg">
 <img src="https://i.imgur.com/PKCFaCk.jpg" width="256" height="192">
